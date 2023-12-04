@@ -1,0 +1,189 @@
+/* Estilos base */
+body {
+  font-family: 'Playpen Sans', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Añadido para centrar todo en la página */
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block; 
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #e4a7a8;
+  padding: 15px 25px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: inline-block; /* Añadido para evitar subrayado en línea */
+}
+
+.menu a:hover {
+  background-color: #ffecec;
+}
+
+h1 {
+  font-family: 'Titan One', sans-serif;
+  font-size: 36px;
+  color: #f6b5b6;
+  text-shadow: 2px 2px 4px #f1f1f1;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+section h2 {
+  color: #f6b5b6;
+}
+
+section p {
+  color: #797979;
+}
+
+.producto {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.producto h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #f6b5b6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  color: #797979;
+}
+
+table, th, td {
+  border: 1px solid #f6b5b6;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+#login form {
+  text-align: center;
+}
+
+#login label {
+  display: block;
+  margin: 10px 0;
+  color: #555555;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+  padding: 5px;
+  border: 1px solid #f6b5b6;
+  border-radius: 5px;
+  color: #333;
+}
+
+#login input[type="submit"] {
+  background-color: #f6b5b6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#login input[type="submit"]:hover {
+  background-color: #ffecec;
+}
+
+footer {
+  text-align: center;
+  background-color: #f4d9a2;
+  color: #fff;
+  padding: 10px;
+}
+
+
+/* Regla Media Query 1 (480px) */
+@media screen and (min-width: 480px) {
+  header {
+    padding: 15px 0;
+  }
+
+  .menu a {
+    padding: 12px 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  section {
+    padding: 15px;
+    margin: 15px;
+  }
+}
+
+/* Regla Media Query 2 (768px) */
+@media screen and (min-width: 768px) {
+  header {
+    padding: 25px 0;
+  }
+
+  .menu a {
+    padding: 14px 24px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  section {
+    padding: 18px;
+    margin: 18px;
+  }
+}
+
+/* Regla Media Query 3 (1024px) */
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 30px 0;
+  }
+
+  .menu a {
+    padding: 18px 25px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  section {
+    padding: 22px;
+    margin: 22px;
+  }
+}
